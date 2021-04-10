@@ -17,17 +17,34 @@ header {
 	align-items: center;
 }
 
+.topPart {
+	background-color: rgb(206, 203, 203);
+}
+
 .titleTop {
-	font-family: "Source Sans Pro";
-	font-size: 1.75rem;
-	font-weight: 600;
+	padding-top: 32px;
+	padding-left: 16px;
+	padding-bottom: 32px;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1.85rem;
+	font-weight: bold;
 	text-align: left;
-	word-wrap: 2px;
+	line-height: 2.75rem;
+	word-spacing: 0.5rem;
+	color: rgb(65, 64, 64);
 }
 
 .topText {
-	font-family: "Source Sans Pro";
+	padding-bottom: 24px;
+	padding-left: 16px;
+	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.25rem;
-	font-weight: 300;
+	font-weight: 600;
 	text-align: left;
+	line-height: 1.7rem;
+	color: rgb(75, 75, 75);
+}
+
+.start {
+	
 }
