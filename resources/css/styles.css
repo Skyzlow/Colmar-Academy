@@ -3,6 +3,11 @@
 	src: url(./resources/fonts/SourceSansPro-Regular.otf) format('opentype');
 }
 
+@font-face {
+	font-family: "PingFang";
+	src: url(./resources/fonts/PingFang.ttc) format('truetype');
+}
+
 html {
 	font-size: 16px;
 }
@@ -97,4 +102,40 @@ header {
 	background-color: black;
 	transition-property: background-color, color, margin;
 	transition-duration: 120ms;
+}
+
+h3 {
+	padding-left: 32px;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1.25rem;
+	line-height: 1.8rem;
+	font-weight: 600;
+	text-align: left;
+	padding-top: 32px;
+}
+
+.middlePartLink {
+	padding-top: 5px;
+	padding-left: 32px;
+	padding-bottom: 32px;
+}
+
+#middlePartLinkBottom {
+	margin-bottom: 32px;
+	padding-top: 5px;
+	padding-bottom: 32px;
+	padding-left: 32px;
+}
+
+.middlePartImg {
+	padding: 16px;
+}
+
+.middlePartText {
+	padding-left: 32px;
+	font-family: "PingFang", sans-serif;
+	font-size: 0.9rem;
+	font-weight: 200;
+	line-height: 1.8rem;
+	text-align: left;
 }
