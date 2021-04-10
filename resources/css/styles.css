@@ -1,5 +1,29 @@
+@font-face {
+	font-family: "SourceSansPro";
+	src: url(./resources/fonts/SourceSansPro-Regular.otf) format('opentype');
+}
+
+html {
+	font-size: 16px;
+}
+
 header {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+}
+
+.titleTop {
+	font-family: "Source Sans Pro";
+	font-size: 1.75rem;
+	font-weight: 600;
+	text-align: left;
+	word-wrap: 2px;
+}
+
+.topText {
+	font-family: "Source Sans Pro";
+	font-size: 1.25rem;
+	font-weight: 300;
+	text-align: left;
 }
