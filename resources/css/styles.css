@@ -7,6 +7,11 @@ html {
 	font-size: 16px;
 }
 
+a,
+button {
+	cursor: pointer;
+}
+
 .navbar {
 	height: 64px;
 }
@@ -45,6 +50,39 @@ header {
 	color: rgb(75, 75, 75);
 }
 
+.button {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
 .start {
-	
+	font-size: 1rem;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 32px;
+	padding: 10px 100px;
+	border: none;
+	border-radius: none;
+	text-decoration: none;
+	color: white;
+	background-color: rgb(119, 119, 119);
+	-webkit-border-radius: none;
+	-moz-border-radius: none;
+	-ms-border-radius: none;
+	-o-border-radius: none;
+}
+
+.start:hover {
+	cursor: pointer;
+}
+
+.start:active {
+	margin-top: 5px;
+	margin-bottom: 27px;
+	color: rgb(189, 189, 189);
+	background-color: black;
+	transition-property: background-color, color, margin;
+	transition-duration: 120ms;
 }
