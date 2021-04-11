@@ -179,7 +179,6 @@ h3 {
 	grid-row-gap: 8px;
 	padding-right: 32px;
 	padding-bottom: 48px;
-	background-color: gold;
 }
 
 .bottomButton {
@@ -225,7 +224,25 @@ h3 {
 
 .thesis {
 	text-align: center;
-	background-color:blueviolet;
 	padding-top: 32px;
+	padding-bottom: 16px;
+}
+
+.videoPlacer {
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+video:hover {
+	cursor: pointer;
+}
+
+h6 {
+	font-family: "PingFang", sans-serif;
+	font-weight: 200;
+	font-size: 0.8rem;
+	text-align: center;
+	padding-top: 40px;
 	padding-bottom: 16px;
 }
