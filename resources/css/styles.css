@@ -114,10 +114,22 @@ h3 {
 	padding-top: 32px;
 }
 
+.middlePart {
+	display: flex;
+	flex-wrap: wrap;
+	padding-right: 16px;
+}
+
 .middlePartLink {
+	font-family: "Source Sans Pro", sans-serif;
 	padding-top: 5px;
 	padding-left: 32px;
 	padding-bottom: 32px;
+}
+
+#link {
+	text-decoration: none;
+	color: rgb(0, 183, 255);
 }
 
 #middlePartLinkBottom {
@@ -127,8 +139,19 @@ h3 {
 	padding-left: 32px;
 }
 
+.middleFlexImg {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+
 .middlePartImg {
-	padding: 16px;
+	margin: 16px;
+	max-width: 100%;
+	max-height: 100%;
+	min-height: 100%;
+	min-width: 100%;
 }
 
 .middlePartText {
