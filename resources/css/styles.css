@@ -53,7 +53,7 @@ h1 {
 	text-align: center;
 	line-height: 2.75rem;
 	word-spacing: 0.5rem;
-	color: rgb(65, 64, 64);	
+	color: rgb(65, 64, 64);
 }
 
 .titleTop {
@@ -144,7 +144,6 @@ h3 {
 }
 
 #middlePartLinkBottom {
-	margin-bottom: 32px;
 	padding-top: 5px;
 	padding-bottom: 32px;
 	padding-left: 32px;
@@ -172,4 +171,61 @@ h3 {
 	font-weight: 200;
 	line-height: 1.8rem;
 	text-align: left;
+}
+
+.bottomButtonPart {
+	display: grid;
+	height: 400px;
+	grid-row-gap: 8px;
+	padding-right: 32px;
+	padding-bottom: 48px;
+	background-color: gold;
+}
+
+.bottomButton {
+	font-size: 1.25rem;
+	font-weight: 300;
+	margin-left: 16px;
+	margin-right: 16px;
+	padding-left: 16px;
+	padding-top: 16px;
+	padding-bottom: 24px;
+	text-align: left;
+	overflow: hidden;
+	border: none;
+	border-radius: none;
+	text-decoration: none;
+	color: white;
+	background-color: rgb(119, 119, 119);
+	-webkit-border-radius: none;
+	-moz-border-radius: none;
+	-ms-border-radius: none;
+	-o-border-radius: none;
+	max-width: 100%;
+	max-height: 100%;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.bottomButton:active {
+	margin-top: 5px;
+	margin-bottom: -5px;
+	margin-left: 18px;
+	color: rgb(247, 214, 68);
+	background-color: black;
+	transition-property: background-color, margin;
+	transition-duration: 120ms;
+}
+
+.learnTitle {
+	padding-top: 32px;
+	padding-bottom: 16px;
+	text-align: center;
+}
+
+.thesis {
+	text-align: center;
+	background-color:blueviolet;
+	padding-top: 32px;
+	padding-bottom: 16px;
 }
